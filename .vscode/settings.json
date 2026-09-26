@@ -1,4 +1,4 @@
 {
     "C_Cpp.errorSquiggles": "disabled",
-    "code-runner.runInTerminal": false
+    "code-runner.runInTerminal": true
 }
