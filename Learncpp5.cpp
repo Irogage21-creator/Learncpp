@@ -3,7 +3,7 @@
 // << (insertion operator)
 // >> (extraction operator)
 // cout (character output)
-// cit (character input)
+// cin (character input)
 
 
 #include <iostream>
