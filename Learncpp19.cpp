@@ -26,7 +26,7 @@ int main(){
     do{
         std::cout << "Enter a positive no. : ";
         std::cin >> number;
-    }while(number < 0);
+    }while(number <= 0);
 
     std::cout << "This no. is : "<< number;
 
