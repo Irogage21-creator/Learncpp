@@ -70,7 +70,7 @@ int main(){
     
     std::cout << grade << '\n';
     std::cout << Rank << '\n';
-    std::cout << initials<< '\n';
+    std::cout << initials << '\n';
     std::cout << currency<< '\n';
     std::cout << number<< '\n';
 
