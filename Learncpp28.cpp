@@ -1,39 +1,25 @@
-//Lecture 24 : User defined functions (void)
+//Lecture 24 : User defined functions (void)Part 1 :
 
-# include <iostream>
+#include<iostream>
 
-void namelist();
-void happybirthday(std::string name , int age);
+//function = a block of reusable code
 
-int main(){
-
-    namelist();
+void goodmorning(){//format void function()
+    //Also generally the function is written before the main function
 
     std::string name;
-    int age;
-
-    std::cout << "*************Happy Birthday Song*************\n";
-
     std::cout << "Enter your name : ";
-    std::getline( std::cin , name);
-    std::cout << "Enter your age : ";
-    std::cin >> age;
-    happybirthday(name , age);
+    std::getline(std::cin , name);
 
+    std::cout << "Good Morning "<< name << " !!";
+
+}
+int main(){
+
+    goodmorning();//this is called INVOKING or CALLING  a fx in the main fx
+    goodmorning();//You can invoke the fx as many times as you want
+    
     return 0;
-}
-
-void namelist(){
-
-    std::cout << "Arya\nKiran\nSurya\nIsha\nAmrit\nTejas\nShashi\nAmar\nDevansh\nAmar\n\n\n";
-}
-void happybirthday(std::string name , int age){
-
-    std::cout << "Happy Birthday to you!!\n";
-    std::cout << "Happy Birthday to you!!\n";
-    std::cout << "Happy Birthday dear "<< name << '\n';
-    std::cout << "Happy Birthday to youuu!!!!\n";
-    std::cout << "Congrats, you are now "<< age << " y/o.";
 }
 
 
