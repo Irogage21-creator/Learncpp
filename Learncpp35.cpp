@@ -12,11 +12,19 @@ int main(){
     
     double balance = 100000;
     int choice;
+    string name ;
+    cout << "***********STATE BANK OF REEL LIFE***********\n";
+    cout << "Enter your name : ";
+    getline( cin , name);
+
+    if(!name.empty()){
 
     do{
-    cout << "\n****************************\n";
-    cout << "Enter your choice\n";
+    cout << "\n\n****************************\n";
+    cout << "Hello " << name <<  " !!, which kind of Service would you have ?\n";
     cout << "****************************\n";
+    cout << "Enter your choice\n";
+    
 
     cout << "1. Show Balance\n";
     cout << "2. Deposit Money\n";
@@ -38,7 +46,8 @@ int main(){
                     break;
         default : cout << "Invalid Choice\n";
     }
-    }while(choice != 4);
+    }while(choice != 4);}
+    else{cout << "INPUT ERROR !!!";}
 
     return 0;
 }
