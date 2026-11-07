@@ -27,4 +27,5 @@ int main(){
     cout << num5 << '\n';
     cout << num6 << '\n';
    
+    return 0;
 }
